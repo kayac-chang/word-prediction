@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "include": ["src/**/*", "packages/**/*"],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "discord/types": ["../packages/types"]
+    }
+  }
+}
